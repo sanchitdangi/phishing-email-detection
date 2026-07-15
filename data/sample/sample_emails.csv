@@ -1,0 +1,21 @@
+email_id,text,label,subject,sender_domain,reply_to_domain,source
+1,"Dear Customer, your account has been suspended due to unusual activity. Click http://192.168.1.1/verify immediately to restore access!",1,"URGENT: Account Suspended",bankofamerica.com,secure-verify.tk,sample_phishing
+2,"Your package could not be delivered. Please click http://bit.ly/track-pkg to confirm your address and reschedule.",1,"Package Delivery Notice",fedex-support.xyz,delivery-updates.ml,sample_phishing
+3,"CONGRATULATIONS! You have been selected as our weekly winner. Claim your free prize at http://prize-claim.tk/winner",1,"You Won!!!",contest@promo.cf,claims@prize-winner.gq,sample_phishing
+4,"Verify your PayPal account now — it will expire in 24 hours. Login at http://paypa1-secure.xyz/verify?id=38291",1,"Action Required: Verify Account",paypal.com,no-reply@paypal-alerts.cf,sample_phishing
+5,"Your Amazon account has been locked due to suspicious login. Update your password immediately: http://amazon-security.tk/reset",1,"Security Alert - Amazon Account",amazon.com,security-team@amazon-alerts.top,sample_phishing
+6,"Hi, just wanted to follow up on the meeting notes from last Thursday. Let me know if you have any questions.",0,"Follow-up: Thursday meeting",john.smith@company.com,,sample_ham
+7,"Your monthly invoice #INV-2024-0042 is attached. Payment is due by the 15th. Thank you for your business.",0,"Invoice #INV-2024-0042",billing@acmecorp.com,,sample_ham
+8,"Please find attached the project proposal for Q3. Looking forward to your feedback at the team meeting on Wednesday.",0,"Q3 Project Proposal",sarah.jones@startup.io,,sample_ham
+9,"Your GitHub pull request #142 has been approved and merged into main. Review the changes at github.com/org/repo/pull/142",0,"PR #142 merged",notifications@github.com,,sample_ham
+10,"This is a reminder that your dentist appointment is scheduled for next Tuesday at 2:30 PM. Reply to confirm or reschedule.",0,"Appointment Reminder",admin@dental-clinic.com,,sample_ham
+11,"The quarterly report is ready for review. Please access it through the company SharePoint portal at your convenience.",0,"Q3 Report Ready",reports@internal-company.com,,sample_ham
+12,"Security alert: Someone signed in to your Google account from a new device. If this was you, no action needed.",0,"New sign-in on Chrome",no-reply@accounts.google.com,,sample_ham
+13,"Dear valued customer, your credit card ending in 4821 will expire next month. Update your payment info at http://bit.ly/cc-update or face service interruption!",1,"IMPORTANT: Card Expiring Soon",creditcard-bank.ml,updatepayment@billing-secure.tk,sample_phishing
+14,"Hi team, the deployment to production is scheduled for Friday evening. Please ensure all tests pass before then.",0,"Production deployment Friday",devops@ourcompany.com,,sample_ham
+15,"Action required: Confirm your email address by clicking the link below within 48 hours or your account will be deleted. http://verify-email.xyz/confirm?token=abc123",1,"Confirm Your Email - URGENT",support@social-platform.gq,admin@verify-email.xyz,sample_phishing
+16,"The library book you requested — 'Clean Code' by Robert Martin — is now available for pickup.",0,"Library Hold Available",library@city-library.org,,sample_ham
+17,"FREE iPhone 15 giveaway! You have been randomly selected. Claim your prize immediately — offer expires in 1 hour! http://free-iphone.top/claim",1,"You're a WINNER!!!",contest@promos.icu,claims@free-iphone.top,sample_phishing
+18,"Hello, I noticed your CV on LinkedIn and think you'd be a great fit for our engineering team. Would you be open to a quick chat?",0,"Engineering opportunity at TechCorp",recruiter@techcorp.com,,sample_ham
+19,"Your subscription to the newsletter has been confirmed. You can manage preferences at newsletter-service.com/preferences",0,"Newsletter subscription confirmed",hello@newsletter-service.com,,sample_ham
+20,"FINAL WARNING: Your account will be permanently banned unless you verify your identity within 2 hours. Click here: http://192.0.2.5/verify-now",1,"FINAL WARNING - Account At Risk",security@social-network.com,alerts@192-0-2-5.cf,sample_phishing

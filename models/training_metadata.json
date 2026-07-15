@@ -1,0 +1,10 @@
+{
+  "dataset_size": 82032,
+  "class_distribution": {
+    "legitimate": 39212,
+    "phishing": 42820
+  },
+  "optimal_threshold": 0.36000000000000004,
+  "feature_count": 15013,
+  "timestamp": "2026-07-13T10:28:02+00:00"
+}

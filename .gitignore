@@ -1,0 +1,72 @@
+# ─── Python ──────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+
+# ─── Virtual environments ─────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ─── Distribution / build ─────────────────────────────────────────────────────
+dist/
+build/
+*.egg-info/
+
+# ─── Testing ──────────────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ─── Editors ──────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ─── OS ───────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ─── Data files (too large to commit; download via data/download_data.py) ─────
+data/raw/
+data/processed/
+# Keep the sample directory — it's a small committed test fixture
+!data/sample/
+
+# ─── Model artifacts ──────────────────────────────────────────────────────────
+# Models are committed only if under 50 MB (GitHub soft limit).
+# If any artifact exceeds this limit, it is excluded here and a download
+# script + graceful API fallback are provided instead (see README § Model Artifacts).
+models/*.pkl
+models/*.joblib
+models/*.bin
+# But DO commit the evaluation JSON and metadata (small text files).
+!models/evaluation_results.json
+!models/training_metadata.json
+!models/threshold.json
+!models/feature_names.json
+!models/predictions.json
+!models/lightgbm_model.pkl
+!models/random_forest.pkl
+!models/logistic_regression.pkl
+!models/naive_bayes.pkl
+!models/tfidf_vectoriser.pkl
+
+# ─── Notebooks ────────────────────────────────────────────────────────────────
+notebooks/.ipynb_checkpoints/
+
+# ─── Logs / environment ───────────────────────────────────────────────────────
+*.log
+.env
+.env.*
+!.env.example
+
+# ─── SHAP / generated output ──────────────────────────────────────────────────
+# HTML exports are marked linguist-generated in .gitattributes to prevent
+# contaminating GitHub language statistics (lesson from companion project).
+assets/shap_*.html

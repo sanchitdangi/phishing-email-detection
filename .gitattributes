@@ -1,0 +1,12 @@
+# Tell GitHub's Linguist not to count generated files in language stats.
+# This prevents SHAP HTML exports (which can be large) from skewing the
+# reported language breakdown — an issue that occurred in the companion
+# Fake News Detection project and required a manual fix.
+
+# SHAP HTML summary exports (if produced)
+assets/shap_*.html linguist-generated=true
+
+# Any other auto-generated HTML reports
+reports/**/*.html linguist-generated=true
+
+# Jupyter notebook outputs are not generated code, leave as default.
